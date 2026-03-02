@@ -34,5 +34,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             <button type="submit">Salvar</button>
         </form>
     </div>
+    <div class="resultado">
+        
+    </div>
 </body>
 </html>
