@@ -11,6 +11,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $stmt->bindParam(':nome_usuario',$nome);
     $stmt->bindParam(':senha_usuario',$senha);
     $stmt->execute();
+    //comentario
 
 }
 ?>
